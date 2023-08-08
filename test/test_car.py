@@ -11,7 +11,7 @@ from engine.model.thovex import Thovex
 class TestCalliope(unittest.TestCase):
     def test_battery_should_be_serviced(self):
         today = datetime.today().date()
-        last_service_date = today.replace(year=today.year - 3)
+        last_service_date = today.replace(year=today.year - 4)
         current_mileage = 0
         last_service_mileage = 0
 
